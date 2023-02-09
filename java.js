@@ -49,23 +49,46 @@
     // console.log("Wrong Number")
 // }
 
-var months = ["January", "Feburary"];
+// var months = ["January", "Feburary"];
+// console.log(months);
+// console.log(months[0]);
+// console.log(months[1]);
+
+// var month = ['January', 'Feburary'];
+// month[2] = 'March';
+// console.log(month);
+
+// var month = ['January', 'Feburary'];
+// month[0] = 'Years';
+// console.log(month);
+
+// var monthss = ['Jan', 'Feb'];
+// monthss.push('Apr');
+// console.log(monthss);
+
+// var months = ['jan', 'feb','mar'];
+// months.pop();
+// console.log(months)
+
+// var months = ['jan', 'feb','mar'];
+// // add karni hay
+// months.unshift(1);
+// months.unshift('Years');
+// months.shift();
+// months.shift();
+// months.pop();
+// console.log(months)
+
+var months = ['january','February','March','April']
+// months.splice(2,1);
+months.splice(1,2,'February', 'March','April');
+months.splice(3,1);
+months.unshift('Months');
+// months.unshift('Years');
+// months.shift();
+// months.push('March');
+// months.pop();
 console.log(months);
-console.log(months[0]);
-console.log(months[1]);
-
-var month = ['January', 'Feburary'];
-month[2] = 'March';
-console.log(month);
-
-var month = ['January', 'Feburary'];
-month[0] = 'Years';
-console.log(month);
-
-var monthss = ['Jan', 'Feb'];
-monthss.push('Apr');
-console.log(monthss);
-
-var months = ['jan', 'feb','mar'];
-months.pop();
-console.log(months)
+console.log(months.slice(1,4));
+console.log(months.slice(0,1));
+console.log(months.slice(0,2));
